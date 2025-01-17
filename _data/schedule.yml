@@ -2,15 +2,71 @@
 # Don't forget quotes around hours, otherwise the colons will mess stuff up.
 # Use an empty string ('') for the day names if you do not want headers.
 
-Saturday:
-  '7:30-9:30': Breakfast
-  '9:30-10:00': Opening ceremony
-  '10:20-12:00': Sponsors Presentation
-  '12:30-13:30': Lunch
-  '18:30-19:30': Dinner
+# Schedule, optional.
+# Don't forget quotes around hours, otherwise the colons will mess stuff up.
+# Use an empty string ('') for the day names if you do not want headers.
 
-Sunday:
-  '0:00-1:00': Midnight snack
-  '7:00-9:00': Breakfast
-  '11:30-12:30': Lunch
-  '15:00-17:00': Closing ceremony
+Wednesday, 12 March 2025:
+  '8:30-9:00': 
+    title: Welcome coffee and opening
+    speakers: 
+      - "Hosted by the Department of Social Policy at LSE, AXA Gender Lab at Bocconi, and NYU Abu Dhabi"
+ part: "Part 1: Reimagining Gender Foundations for Tomorrow"
+  '9:00-11:00': 
+    title: The Economics of Fertility: A New Era
+    speakers:
+      - name: Matthias Doepke
+        affiliation: "London School of Economics (LSE)"
+        website: "https://www.lse.ac.uk/economics/people/matthias-doepke"
+      - name: Discussant TBD
+        affiliation: ""
+        website: ""
+  '11:15-12:15': 
+    title: Gender Inequality: Navigating New Frontiers and Paradigm Shifts
+    speakers:
+      - name: Almudena Sevilla
+        affiliation: "London School of Economics (LSE)"
+        website: "https://www.lse.ac.uk/social-policy/people/almudena-sevilla"
+      - name: Rachel Ngai
+        affiliation: "London School of Economics (LSE)"
+        website: "https://www.lse.ac.uk/economics/people/rachel-ngai"
+      - name: Discussant TBD
+        affiliation: ""
+        website: ""
+  '12:15-2:00': 
+    title: Lunch
+part: "Part 2: Gender in Transformative Futures"
+  '2:00-3:30': 
+    title: Generative AI and Gender: Global Measures of Workers
+    speakers:
+      - name: Kenza Elass
+        affiliation: "Bocconi University, AXA Gender Lab"
+        website: "https://genderlab.unibocconi.eu/people/kenza-elass"
+      - name: Matthew Baird
+        affiliation: "LinkedIn"
+        website: "https://www.linkedin.com/in/matthew-baird"
+      - name: Discussant TBD
+        affiliation: ""
+        website: ""
+  '3:30-3:45': 
+    title: Break
+    speakers: []
+  '3:45-5:00': 
+    title: The Gender Gap in Carbon Footprint
+    speakers:
+      - name: Ondine Berland
+        affiliation: "London School of Economics (LSE)"
+        website: "https://www.lse.ac.uk/environment/people/ondine-berland"
+      - name: Discussant TBD
+        affiliation: ""
+        website: ""
+  '5:00-6:00': 
+    title: Artificial Intelligence and Gender Equality
+    speakers:
+      - name: Daniel Carvajal
+        affiliation: ""
+        website: "https://www.linkedin.com/in/daniel-carvajal"
+      - name: Discussant TBD
+        affiliation: ""
+        website: ""
+
