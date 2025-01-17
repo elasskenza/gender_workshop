@@ -2,16 +2,12 @@
 # Don't forget quotes around hours, otherwise the colons will mess stuff up.
 # Use an empty string ('') for the day names if you do not want headers.
 
-# Schedule, optional.
-# Don't forget quotes around hours, otherwise the colons will mess stuff up.
-# Use an empty string ('') for the day names if you do not want headers.
-
 Wednesday, 12 March 2025:
   '8:30-9:00': 
     title: Welcome coffee and opening
     speakers: 
       - "Hosted by the Department of Social Policy at LSE, AXA Gender Lab at Bocconi, and NYU Abu Dhabi"
- part: "Part 1: Reimagining Gender Foundations for Tomorrow"
+  part: "Part 1: Reimagining Gender Foundations for Tomorrow"
   '9:00-11:00': 
     title: The Economics of Fertility: A New Era
     speakers:
@@ -35,7 +31,7 @@ Wednesday, 12 March 2025:
         website: ""
   '12:15-2:00': 
     title: Lunch
-part: "Part 2: Gender in Transformative Futures"
+  part: "Part 2: Gender in Transformative Futures"
   '2:00-3:30': 
     title: Generative AI and Gender: Global Measures of Workers
     speakers:
@@ -69,4 +65,3 @@ part: "Part 2: Gender in Transformative Futures"
       - name: Discussant TBD
         affiliation: ""
         website: ""
-
