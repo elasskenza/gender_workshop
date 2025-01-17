@@ -130,16 +130,4 @@ layout: default
     {% endfor %}
   </div>
 
-  {% if site.data.organizers.group %}
-    <p>
-      {{ site.data.info.name }} is organized by {{ site.data.organizers.group.name }}, whose legal documents can be viewed
-      {% if site.data.organizers.group.link %}
-        <a href="{{ site.data.organizers.group.link }}">here</a>.
-      {% else %}
-        <a href="/legal">here</a>.
-      {% endif %}
-    </p>
-  {% endif %}
-
-  <p>Website template made with love by <a href="https://lauzhack.com">LauzHack</a>.</p>
 </section>
