@@ -11,29 +11,28 @@ layout: default
   </p>
 </section>
 
-
 <section class="tone-dark">
   <div>
     {{ site.data.info.description_long | markdownify }}
 
-{% if site.data.workshops %}
-  <p>
-    Find here the complete schedule: 
-    <a href="/data/Program_2025.pdf" target="_blank">Download PDF</a>.
-  </p>
-{% endif %}
+    {% if site.data.workshops %}
+      <p>
+        Find here the complete schedule: 
+        <a href="/data/Program_2025.pdf" target="_blank">Download PDF</a>.
+      </p>
+    {% endif %}
 
     {% if site.data.info.past_editions %}
       <p>
-        Check out the past edition:
+        Check out the past editions:
         {% for edition in site.data.info.past_editions %}
           <a href="{{ edition[1] }}">{{ edition[0] }}</a>
         {% endfor %}
       </p>
     {% endif %}
-
   </div>
 </section>
+
 {% if site.data.schedule %}
   <section id="schedule">
     <h1>Schedule</h1>
@@ -42,11 +41,11 @@ layout: default
         <div class="item-large">
           <table>
             {% if part[0] != '' %}
-            <tr>
-              <th colspan="2">
-                <h2>{{ part[0] }}</h2>
-              </th>
-            </tr>
+              <tr>
+                <th colspan="2">
+                  <h2>{{ part[0] }}</h2>
+                </th>
+              </tr>
             {% endif %}
             {% for item in part[1] %}
               <tr>
@@ -60,9 +59,10 @@ layout: default
     </div>
   </section>
 {% endif %}
+
 <section>
   {% if site.data.faq %}
-    <h1 id="faq"> Registration </h1>
+    <h1 id="faq">Registration</h1>
     <div class="items-container">
       {% for item in site.data.faq %}
         <div class="item-large">
@@ -72,27 +72,23 @@ layout: default
       {% endfor %}
       <div class="item-large">
         <h2>I have another question...</h2>
-        <p>Contact us on <a href="https://twitter.com/{{ site.data.info.twitter }}"
-                  rel="noreferrer">Twitter</a>,
-          {% endif %}
-          <br>
-          or by email ({{ site.data.info.email }}), kenza.elass[at]unibocconi.it or m.suteau[at]lse.ac.uk !</p>
+        <p>Contact us on <a href="https://twitter.com/{{ site.data.info.twitter }}" rel="noreferrer">Twitter</a>,
+          or by email ({{ site.data.info.email }}), kenza.elass[at]unibocconi.it or m.suteau[at]lse.ac.uk!</p>
+      </div>
     </div>
   {% endif %}
 </section>
+
 {% if site.data.sponsors %}
   <section class="section-sponsors">
-
     {% for tier in site.data.sponsors.tiers %}
       {% if tier[1].show_title %}
         <h1>{{ tier[0] }}</h1>
       {% endif %}
 
       {% if tier[1].sponsors %}
-        <div class="items-container"
-             {% if tier[1].color %} style="background: {{ tier[1].color }}" {% endif %}>
+        <div class="items-container" {% if tier[1].color %} style="background: {{ tier[1].color }}" {% endif %}>
           {% for sponsor in tier[1].sponsors %}
-            {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
             {% assign file_img = 'null' %}
             {% assign file_svg_path = sponsor[0] | prepend: '/images/logos/' | append: '.svg' %}
             {% for file in site.static_files %}
@@ -105,11 +101,8 @@ layout: default
             {% endif %}
 
             <div class="item-large">
-              <a href="{{ sponsor[1] }}"
-                 rel="noreferrer">
-                 <img src="{{ file_img }}"
-                      alt="{{ tier[0] }} - {{ sponsor[0] }}"
-                      style="height: {{ tier[1].size }}vh">
+              <a href="{{ sponsor[1] }}" rel="noreferrer">
+                <img src="{{ file_img }}" alt="{{ tier[0] }} - {{ sponsor[0] }}" style="height: {{ tier[1].size }}vh">
               </a>
             </div>
           {% endfor %}
@@ -118,29 +111,25 @@ layout: default
     {% endfor %}
   </section>
 {% endif %}
+
 <section class="tone-dark">
   <h1>Committee</h1>
   <div class="items-container">
     {% for person in site.data.organizers.people %}
       <div class="item-small">
-        <a class="person-link"
-           href="{{ person.link }}"
-           rel="noreferrer">
-            <div class="person-container">
-              <img class="person-image"
-                   src="images/people/{{ person.first }} {{ person.last }}.jpg"
-                   alt="Picture of {{ person.first }} {{ person.last }}">
-              <div class="person-info">
-                <span class="person-first">{{ person.first }}</span>
-                <br>
-                <span class="person-last">{{ person.last }}</span>
-              </div>
+        <a class="person-link" href="{{ person.link }}" rel="noreferrer">
+          <div class="person-container">
+            <img class="person-image" src="images/people/{{ person.first }} {{ person.last }}.jpg" alt="Picture of {{ person.first }} {{ person.last }}">
+            <div class="person-info">
+              <span class="person-first">{{ person.first }}</span><br>
+              <span class="person-last">{{ person.last }}</span>
             </div>
-          </a>
-        </div>
-      {% endfor %}
-    </div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
   </div>
+
   {% if site.data.organizers.group %}
     <p>
       {{ site.data.info.name }} is organized by {{ site.data.organizers.group.name }}, whose legal documents can be viewed
@@ -151,7 +140,6 @@ layout: default
       {% endif %}
     </p>
   {% endif %}
-  <p>
-    Website template made with love by <a href="https://lauzhack.com">LauzHack</a>.
-  </p>
+
+  <p>Website template made with love by <a href="https://lauzhack.com">LauzHack</a>.</p>
 </section>
