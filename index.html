@@ -1,24 +1,16 @@
 ---
 layout: default
 ---
-<section class="tone-dark header">
-  <h1 style="font-size: 3em; text-align: center; margin-top: 20px;">{{ site.data.info.name }}</h1>
-  <p style="font-size: 1.5em; text-align: center; margin-top: 10px;">
-    {{ site.data.info.date }}<br>
-    {{ site.data.info.location }}
+<section class="tone-dark header" style="text-align: center; padding: 50px 0;">
+  <h1 style="font-size: 4em; font-family: 'Playfair Display', serif; margin: 0;">
+    {{ site.data.info.name }}
+  </h1>
+  <p style="font-size: 1.5em; font-family: 'Playfair Display', serif; margin: 20px 0 0;">
+    {{ site.data.info.location }}<br>
+    {{ site.data.info.date }}
   </p>
 </section>
 
-  <p>
-    Follow us on <a href="https://facebook.com/{{ site.data.info.facebook }}"
-                    rel="noreferrer">Facebook</a>
-    {% if site.data.info.twitter %}
-      and <a href="https://twitter.com/{{ site.data.info.twitter }}"
-             rel="noreferrer">Twitter</a>
-    {% endif %}
-    for updates!
-  </p>
-</section>
 <section class="tone-dark">
   <div>
     {{ site.data.info.description_long | markdownify }}
