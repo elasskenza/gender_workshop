@@ -5,15 +5,10 @@
 # - Use the weird |- syntax to allow answers to span lines.
 # - End lines with two spaces if you want to force a line break, otherwise the line break is ignored.
 
-- q: What is this?
+- q: How can I attend the workshop in person at the London School of Economics?
   a: |- 
-        An example website for this template.  
-        Isn't it awesome?
+        In-person attendance is limited. Please register through this link.
 
-- q: Can I use it?
+- q: How can I attend the workshop online?
   a: |-
-        Of course! Just comply with the license, i.e. credit the authors.
-
-- q: Thank you!
-  a: |-
-        You're welcome!
+        Everyone can attend online. Please register through this link.
