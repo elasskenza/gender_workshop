@@ -1,67 +1,39 @@
-# Schedule, optional.
-# Don't forget quotes around hours, otherwise the colons will mess stuff up.
-# Use an empty string ('') for the day names if you do not want headers.
-
 Wednesday, 12 March 2025:
-  '8:30-9:00': 
-    title: Welcome coffee and opening
-    speakers: 
-      - "Hosted by the Department of Social Policy at LSE, AXA Gender Lab at Bocconi, and NYU Abu Dhabi"
-  part: "Part 1: Reimagining Gender Foundations for Tomorrow"
-  '9:00-11:00': 
-    title: The Economics of Fertility: A New Era
-    speakers:
-      - name: Matthias Doepke
-        affiliation: "London School of Economics (LSE)"
-        website: "https://www.lse.ac.uk/economics/people/matthias-doepke"
-      - name: Discussant TBD
-        affiliation: ""
-        website: ""
-  '11:15-12:15': 
-    title: Gender Inequality: Navigating New Frontiers and Paradigm Shifts
-    speakers:
-      - name: Almudena Sevilla
-        affiliation: "London School of Economics (LSE)"
-        website: "https://www.lse.ac.uk/social-policy/people/almudena-sevilla"
-      - name: Rachel Ngai
-        affiliation: "London School of Economics (LSE)"
-        website: "https://www.lse.ac.uk/economics/people/rachel-ngai"
-      - name: Discussant TBD
-        affiliation: ""
-        website: ""
-  '12:15-2:00': 
-    title: Lunch
-  part: "Part 2: Gender in Transformative Futures"
-  '2:00-3:30': 
-    title: Generative AI and Gender: Global Measures of Workers
-    speakers:
-      - name: Kenza Elass
-        affiliation: "Bocconi University, AXA Gender Lab"
-        website: "https://genderlab.unibocconi.eu/people/kenza-elass"
-      - name: Matthew Baird
-        affiliation: "LinkedIn"
-        website: "https://www.linkedin.com/in/matthew-baird"
-      - name: Discussant TBD
-        affiliation: ""
-        website: ""
-  '3:30-3:45': 
-    title: Break
-    speakers: []
-  '3:45-5:00': 
-    title: The Gender Gap in Carbon Footprint
-    speakers:
-      - name: Ondine Berland
-        affiliation: "London School of Economics (LSE)"
-        website: "https://www.lse.ac.uk/environment/people/ondine-berland"
-      - name: Discussant TBD
-        affiliation: ""
-        website: ""
-  '5:00-6:00': 
-    title: Artificial Intelligence and Gender Equality
-    speakers:
-      - name: Daniel Carvajal
-        affiliation: ""
-        website: "https://www.linkedin.com/in/daniel-carvajal"
-      - name: Discussant TBD
-        affiliation: ""
-        website: ""
+  '8:30-9:00': |
+    Welcome coffee and opening.
+    Hosted by the Department of Social Policy at LSE, AXA Gender Lab at Bocconi, and NYU Abu Dhabi.
+  '9:00-11:00': |
+    Part 1: Reimagining Gender Foundations for Tomorrow
+    The Economics of Fertility: A New Era.
+    Speaker: Matthias Doepke (London School of Economics)
+    Website: https://www.lse.ac.uk/economics/people/matthias-doepke
+    Discussant: TBD.
+  '11:15-12:15': |
+    Gender Inequality: Navigating New Frontiers and Paradigm Shifts.
+    Speakers:
+      - Almudena Sevilla (London School of Economics)
+        Website: https://www.lse.ac.uk/social-policy/people/almudena-sevilla
+      - Rachel Ngai (London School of Economics)
+        Website: https://www.lse.ac.uk/economics/people/rachel-ngai
+    Discussant: TBD.
+  '12:15-2:00': Lunch
+  '2:00-3:30': |
+    Part 2: Gender in Transformative Futures
+    Generative AI and Gender: Global Measures of Workers.
+    Speakers:
+      - Kenza Elass (Bocconi University, AXA Gender Lab)
+        Website: https://genderlab.unibocconi.eu/people/kenza-elass
+      - Matthew Baird (LinkedIn)
+        Website: https://www.linkedin.com/in/matthew-baird
+    Discussant: TBD.
+  '3:30-3:45': Break
+  '3:45-5:00': |
+    The Gender Gap in Carbon Footprint.
+    Speaker: Ondine Berland (London School of Economics)
+    Website: https://www.lse.ac.uk/environment/people/ondine-berland
+    Discussant: TBD.
+  '5:00-6:00': |
+    Artificial Intelligence and Gender Equality.
+    Speaker: Daniel Carvajal
+    Website: https://www.linkedin.com/in/daniel-carvajal
+    Discussant: TBD.
