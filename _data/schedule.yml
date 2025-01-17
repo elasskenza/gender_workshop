@@ -1,24 +1,4 @@
-<style>
-  body {
-    font-family: 'Lora', serif; /* Or use 'Merriweather', 'Georgia', serif */
-    font-size: 16px; /* Adjust to your preference */
-    line-height: 1.6; /* Improves readability */
-    color: #333; /* Elegant dark gray text */
-  }
-  strong {
-    font-weight: bold;
-  }
-  em {
-    font-style: italic;
-  }
-  a {
-    color: #417db5; /* Blue links for elegance */
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-</style>
+
 
 Wednesday, 12 March 2025:
   '8:30-9:00': |
