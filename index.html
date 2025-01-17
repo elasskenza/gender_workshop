@@ -97,7 +97,7 @@ layout: default
               {% endif %}
             {% endfor %}
             {% if file_img == 'null' %}
-              {% assign file_img = sponsor[0] | prepend: '/images/logos/' | append: '.png' %}
+              {% assign file_img = sponsor[0] | prepend: '/images/logos/' | append: '.jpg' %}
             {% endif %}
 
             <div class="item-large">
@@ -113,7 +113,7 @@ layout: default
 {% endif %}
 
 <section class="tone-dark">
-  <h1>Committee</h1>
+  <h1> Organizing Committee</h1>
   <div class="items-container">
     {% for person in site.data.organizers.people %}
       <div class="item-small">
