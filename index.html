@@ -2,25 +2,12 @@
 layout: default
 ---
 <section class="tone-dark header">
-  <img class="logo"
-       src="workshop_background.jpg"
-       alt="{{ site.data.info.name }}">
-  <p>
-    {{ site.data.info.date }}
-    <br>
+  <h1 style="font-size: 3em; text-align: center; margin-top: 20px;">{{ site.data.info.name }}</h1>
+  <p style="font-size: 1.5em; text-align: center; margin-top: 10px;">
+    {{ site.data.info.date }}<br>
     {{ site.data.info.location }}
   </p>
-  {% if site.data.action.text %}
-    <p>
-      {% if site.data.action.link %}
-        <a class="tone-dark link-action"
-           href="{{ site.data.action.link }}"
-           rel="noreferrer">{{ site.data.action.text | markdownify | remove: '<p>' | remove: '</p>' }}</a>
-      {% else %}
-        {{ site.data.action.text | markdownify }}
-      {% endif %}
-    </p>
-  {% endif %}
+</section>
 
   <p>
     Follow us on <a href="https://facebook.com/{{ site.data.info.facebook }}"
