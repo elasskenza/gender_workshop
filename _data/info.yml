@@ -1,6 +1,6 @@
 
 # Event name
-name: Preliminary Program 2025
+name: GENDER INEQUALITY - NAVIGATING NEW FRONTIERS AND PARADIGM SHIFTS
 
 # Event date, in free-text format
 date: Wednesday, 12 March 2025
@@ -9,25 +9,25 @@ date: Wednesday, 12 March 2025
 location: Old Building OLD 4.10, Houghton St, London WC2A 2AE
 
 # Event description; short is for e.g. Facebook shared links, long appears on the home page.
-description_short: A cutting-edge seminar on gender and economics.
+description_short: Workshop on Gender Inequality
 description_long: |-
-  Join us for a thought-provoking event featuring leading researchers discussing the intersections of gender, economics, and technology.
-  Highlights include sessions on generative AI, labor market discrimination, and transformative futures in gender equality.
+  The workshop aims to foster critical conversations on emerging policy challenges and exchange cutting-edge research addressing gender inequality in a rapidly changing world. At a time when conservative movements are increasingly challenging women’s rights, and transformative trends such as technology and climate change are reshaping global dynamics, it is imperative to understand how these forces can either advance or hinder progress toward gender equality. Simultaneously, longstanding issues like fertility, labor force participation, and caregiving norms are undergoing significant shifts, necessitating fresh perspectives and collaborative approaches.
+
+This workshop is uniquely positioned to lead this dialogue, drawing on the combined expertise and policy-oriented focus of three departments, the Department of Social Policy at LSE, the AXA Gender Lab at Bocconi, and NYU Abu Dhabi, that have been at the forefront of creating vibrant communities of gender researchers across Europe. By bringing together scholars, policymakers, and advocates, we aim to illuminate pathways for meaningful change and build a collective vision for a more equitable future.
 
 # Contact email. Use a bot-defeating format, otherwise you'll get spammed.
-email: info at example dot org
+email: socialpolicy.wispprh@lse.ac.uk
 
 # Social networks. Twitter is optional, but you really should have a Facebook page.
-facebook: https://www.facebook.com/example
-twitter: https://twitter.com/example
+twitter: @WISPPRH
 
 # Accent color of the website
-color: '#2E4053'
+color: '#417db5'
 
 # Font used by the website.
-font: Playfair Display, serif
+font: Playfair Display, Garamond, serif
 
 # Links to past editions
 past_editions:
-  2024: http://2024.example.org
-  2023: http://2023.example.org
+  2024: https://sites.google.com/view/margauxsuteau/women-in-the-workplace?authuser=0
+
