@@ -90,19 +90,17 @@ layout: default
         <div class="items-container" {% if tier[1].color %} style="background: {{ tier[1].color }}" {% endif %}>
           {% for sponsor in tier[1].sponsors %}
             {% assign file_img = 'null' %}
-            {% assign file_svg_path = sponsor[0] | prepend: '/gender_workshop/images/logos/' | append: '.svg' %}
-            {% for file in site.static_files %}
-              {% if file.path == file_svg_path %}
-                {% assign file_img = file_svg_path %}
-              {% endif %}
-            {% endfor %}
-            {% if file_img == 'null' %}
-              {% assign file_img = sponsor[0] | prepend: '/gender_workshop/images/logos/' | append: '.jpg' %}
+            {% assign file_svg_path = sponsor.logo | prepend: '/gender_workshop/images/logos/' %}
+
+            {% if sponsor.logo contains '.svg' %}
+              {% assign file_img = file_svg_path %}
+            {% else %}
+              {% assign file_img = sponsor.logo | prepend: '/gender_workshop/images/logos/' %}
             {% endif %}
 
             <div class="item-large">
-              <a href="{{ sponsor[1] }}" rel="noreferrer">
-                <img src="{{ file_img }}" alt="{{ tier[0] }} - {{ sponsor[0] }}" style="height: {{ tier[1].size }}vh">
+              <a href="{{ sponsor.link }}" rel="noreferrer">
+                <img src="{{ file_img }}" alt="{{ tier[0] }} - {{ sponsor.name }}" style="height: {{ tier[1].size }}vh; width: auto;">
               </a>
             </div>
           {% endfor %}
@@ -111,6 +109,7 @@ layout: default
     {% endfor %}
   </section>
 {% endif %}
+
 
 <section class="tone-dark">
   <h1> Organizing Committee</h1>
