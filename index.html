@@ -16,11 +16,12 @@ layout: default
   <div>
     {{ site.data.info.description_long | markdownify }}
 
-    {% if site.data.workshops %}
-      <p>
-        We also organize <a href="/workshops">{{ site.data.workshops.name }}</a>.
-      </p>
-    {% endif %}
+{% if site.data.workshops %}
+  <p>
+    Find here the complete schedule: 
+    <a href="/data/Program_2025.pdf" target="_blank">Download PDF</a>.
+  </p>
+{% endif %}
 
     {% if site.data.info.past_editions %}
       <p>
