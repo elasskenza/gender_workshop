@@ -12,18 +12,23 @@ group:
 # People organizing the event, and their websites.
 # See the ReadMe file for information on pictures.
 people:
-  - first: Alice
-    last: Example
-    link: http://example.org
+  - first: Margaux 
+    last: Suteau
+    link: https://sites.google.com/view/margauxsuteau/accueil
+
+  - first: Kenza
+    last: Elass
+    link: https://elasskenza.github.io/website/
+
+  - first: Almudena
+    last: Sevilla
+    link: https://www.lse.ac.uk/social-policy/people/academic-staff/Professor-Almudena-Sevilla
+
+  - first: Paola
+    last: Profeta
+    link: https://sites.google.com/view/paola-profeta
+
+  - first: Berkay
+    last: Ozcan
+    link: https://www.lse.ac.uk/social-policy/people/academic-staff/Professor-Berkay-Ozcan
   
-  - first: Bob
-    last: Example
-    link: http://example.org
-
-  - first: Carol
-    last: Example
-    link: http://example.org
-
-  - first: Daniel
-    last: Example
-    link: http://example.org
