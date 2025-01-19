@@ -6,9 +6,7 @@
 
 - q: How can I attend the workshop in person at the London School of Economics?
   a: |-
-        In-person attendance is limited. Please register through [this link](https://my.weezevent.com/workshop-gender-inequality-navigating-new-frontiers-and-paradigm-shifts).
-        Use the following widget to book your tickets:
-        ```
+        In-person attendance is limited. Please register through [this link](https://my.weezevent.com/workshop-gender-inequality-navigating-new-frontiers-and-paradigm-shifts).  
         <a title="Logiciel billetterie en ligne"
          href="https://widget.weezevent.com/ticket/E1267351/?code=1300&locale=en-GB&width_auto=1&color_primary=0032FA"
          class="weezevent-widget-integration"
@@ -21,7 +19,6 @@
          data-type="neo"
          target="_blank">Billetterie Weezevent</a>
         <script type="text/javascript" src="https://widget.weezevent.com/weez.js"></script>
-        ```
 
 
 - q: How can I attend the workshop online?
