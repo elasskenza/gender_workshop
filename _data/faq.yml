@@ -1,3 +1,9 @@
+# Questions, answers, and an optional 'id' field for hyperlinks (e.g. if you need to show a specific answer to someone).
+# The last question is automatically added with the contact information.
+# Beware, YAML/Markdown syntax is a bit tricky:
+# - Use the weird |- syntax to allow answers to span lines.
+# - End lines with two spaces if you want to force a line break, otherwise the line break is ignored.
+
 - q: How can I attend the workshop in person at the London School of Economics?
   a: |-
         In-person attendance is limited. Please register through [this link](https://my.weezevent.com/workshop-gender-inequality-navigating-new-frontiers-and-paradigm-shifts).
@@ -17,11 +23,7 @@
         <script type="text/javascript" src="https://widget.weezevent.com/weez.js"></script>
         ```
 
-#### **Option 2: Simplify the Content**
-Keep the YAML plain-text friendly:
-```yaml
-- q: How can I attend the workshop in person at the London School of Economics?
+
+- q: How can I attend the workshop online?
   a: |-
-        In-person attendance is limited. Please register through [this link](https://my.weezevent.com/workshop-gender-inequality-navigating-new-frontiers-and-paradigm-shifts).
-        For more details and to book tickets, visit the Weezevent widget page:
-        [Weezevent Ticket Booking](https://widget.weezevent.com/ticket/E1267351/?code=1300&locale=en-GB&width_auto=1&color_primary=0032FA).
+        Everyone can attend online. Please register through [this link](https://my.weezevent.com/workshop-gender-inequality-navigating-new-frontiers-and-paradigm-shifts-1).
